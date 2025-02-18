@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h1>Welcome to Travel Explorer</h1>
+            <p>Discover your ideal travel destinations based on your preferences.</p>
+        </section>
+        
+        <section id="recommendations">
+            <h2>Recommended Destinations</h2>
+            <div class="recommendation" id="beach">
+                <h3>Beach Destination</h3>
+                <img src="beach1.jpg" alt="Beautiful Beach">
+                <img src="beach2.jpg" alt="Sunny Beach">
+            </div>
+            <div class="recommendation" id="temple">
+                <h3>Temple Destination</h3>
+                <img src="temple1.jpg" alt="Ancient Temple">
+                <img src="temple2.jpg" alt="Historic Temple">
+            </div>
+            <div class="recommendation" id="country">
+                <h3>Country Recommendation</h3>
+                <img src="country1.jpg" alt="Scenic Country">
+                <img src="country2.jpg" alt="Cultural Landmark">
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Travel Explorer. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
